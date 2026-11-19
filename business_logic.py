@@ -4,7 +4,7 @@ import random
 
 
 class Camping:
-    def _init_(self, nombre, plazas, fecha_inicio):
+    def __init__(self, nombre, plazas, fecha_inicio):
         self.nombre = nombre
         self.plazas = plazas
         self.fecha_inicio = fecha_inicio
@@ -149,7 +149,7 @@ class Camping:
 
 
 class RedCampings:
-    def _init_(self):
+    def __init__(self):
         self.campings = []
 
     def tiene_campings(self):
